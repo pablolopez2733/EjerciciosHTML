@@ -1,20 +1,27 @@
 .wrap{
-    height: 100%
+    position: relative;
+    height: 800px;
 }
 
 
 .box-orange{
-    height: 500px;
-    
+    height: 50%;
+    position: relative;
+    top: 0px;
     background-color: orange;
 
 }
 .box-blue{
-    height: 500px;
-    background-color: blue;
 
+    height: 50%;
+    background-color: blue;
+    position: relative;
+    top: 0px;
 
 }
 *{
     margin: 0;
+}
+.html{
+    min-height: 100%;
 }
