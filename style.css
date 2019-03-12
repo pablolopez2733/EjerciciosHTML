@@ -1,9 +1,20 @@
-#primeramitad{
-    height: 50%;
-    background-color: cornflowerblue;
+.wrap{
+    height: 100%
+}
+
+
+.box-orange{
+    height: 500px;
+    
+    background-color: orange;
 
 }
-#segundaMitad{
-    height: 50%;
-    background-color: red;
+.box-blue{
+    height: 500px;
+    background-color: blue;
+
+
+}
+*{
+    margin: 0;
 }
