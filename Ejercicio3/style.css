@@ -1,4 +1,4 @@
-.container {
+.tablero {
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -6,7 +6,7 @@
     height: 100vmin;
     background-color: black;
   }
-  .container > div {
+  .tablero > div {
     width: 20vmax;
     height: 20vmax;
     background-color:rgb(255, 59, 255);
