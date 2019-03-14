@@ -1,28 +1,17 @@
-#tablero{
+.container {
     display:flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     width: 100vmax;
     height: 100vmin;
     background-color: black;
-
   }
-
-  .impar{
-      position: relative;
-      height:50px;
-      width: 50px;
-      background-color: deeppink;
+  .container > div {
+    width: 20vmax;
+    height: 20vmax;
+    background-color:rgb(255, 59, 255);
+    margin: 0;
   }
-  .par{
-      position: relative;
-        height: 50px;
-        width: 50px;
-        background-color: rgb(8, 185, 255);
-    
-  }
-  
-  .body{
-      margin: 0;
-
+  div:nth-child(even){
+    background-color:rgb(4, 196, 255);
   }
