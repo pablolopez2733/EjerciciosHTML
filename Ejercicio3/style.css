@@ -1,0 +1,28 @@
+#tablero{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100vmax;
+    height: 100vmin;
+    background-color: black;
+
+  }
+
+  .impar{
+      position: relative;
+      height:50px;
+      width: 50px;
+      background-color: deeppink;
+  }
+  .par{
+      position: relative;
+        height: 50px;
+        width: 50px;
+        background-color: rgb(8, 185, 255);
+    
+  }
+  
+  .body{
+      margin: 0;
+
+  }
