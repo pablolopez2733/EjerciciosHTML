@@ -1,0 +1,16 @@
+.navBar a{
+    float: right;
+    color: #fdfdfd;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.navBar{
+    background-color: #0046c9;
+    overflow: hidden;
+}
+.navBar li{
+    list-style-type: none;
+}
