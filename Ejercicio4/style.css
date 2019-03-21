@@ -1,16 +1,43 @@
+body{
+    margin: 0;
+
+}
+
 .navBar a{
     float: right;
     color: #fdfdfd;
-    text-align: center;
-    padding: 14px 16px;
+    vertical-align: center;
+    padding: 9px 16px;
     font-size: 17px;
     text-decoration: none;
+    overflow: hidden;
+    
+    
 }
 
 .navBar{
     background-color: #0046c9;
-    overflow: hidden;
+    width: 100vmax;
+    height: 10vmin;
+    margin: 0px;
+    padding: 0;
+    display: block;
+    position:absolute;
+    top:0px;
+    
+
 }
 .navBar li{
     list-style-type: none;
+    
+}
+.navBar img{
+
+    vertical-align: middle;
+    height: 70%;
+    left: 15px;
+    position: absolute;
+    top: 10px;
+
+    
 }
